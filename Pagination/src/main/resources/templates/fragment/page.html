@@ -10,6 +10,7 @@
 
 </head>
 <body>
+<h1>需要注意服务器 pageList.number 是从0开始的，前端显示给用户的都是从1开始的，这里比较绕，计算容易出错</h1>
 <ul>
 <th:block th:if="${pageList.totalPages > 10}" th:with="left=${pageList.number-1}, right=${pageList.totalPages-2-pageList.number}, diff=${left > right ? (right < 3 ? 3 - right : 0 ) : (left < 3 ? left - 3 : 0)}, start=${pageList.number-3-diff}, end=${pageList.number+3-diff}">
     <li th:text="'左边有多少个页码 left: ' + ${left}"></li>
