@@ -1,5 +1,14 @@
 # Thymeleaf + Bootstrap Pagination (翻页组件)
 
+### 效果图
+![screen shot](./screenshot/1.png)
+![screen shot](./screenshot/2.png)
+![screen shot](./screenshot/3.png)
+![screen shot](./screenshot/4.png)
+![screen shot](./screenshot/5.png)
+![screen shot](./screenshot/6.png)
+![screen shot](./screenshot/8.png)
+
 ### 开发环境
 - JDK 1.8
 - IDEA
